@@ -1,0 +1,44 @@
+.addTextForm {
+	margin-left: 5%;
+	display: grid;
+	grid-template-columns: 90%;
+	justify-items: center;
+}
+
+.hideTextForm {
+	display: none;
+}
+
+.TaskInput {
+	width: 90%;
+	height: 2em;
+	border-color: orange;
+	border-width: 5px;
+	margin-bottom: 1em;
+	margin-left: 5%;
+	font-size: 1em;
+	overflow: hidden;
+	font-weight: bold;
+	resize: none;
+}
+
+.TaskText {
+	height: 10em;
+}
+
+.AddTaskButton {
+	width: 90%;
+	margin-left: 5%;
+	height: 4em;
+	border-color: orange;
+	border-width: 5px;
+	font-size: 1em;
+	text-transform: uppercase;
+	overflow: hidden;
+	font-weight: bold;
+}
+
+.AddTaskButton:hover {
+	border-color: red;
+	opacity: 40%;
+}

@@ -1,0 +1,58 @@
+.menu {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 99%;
+}
+
+.TaskAppButton {
+	width: 20%;
+	height: 4em;
+	border-color: orange;
+	border-width: 5px;
+	margin: 1em;
+	font-size: 1em;
+	text-transform: uppercase;
+	overflow: hidden;
+	font-weight: bold;
+}
+
+.TaskAppButton:hover {
+	border-color: red;
+	opacity: 40%;
+}
+
+@media (min-width:767px){
+.container {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	width: 99%;
+}
+}
+
+@media (max-width:767px){
+.container {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 99%;
+}
+}
+
+#done {
+	flex-basis: 33%;
+}
+
+#waiting {
+	flex-basis: 33%;
+}
+
+#today {
+	flex-basis: 33%;
+}
+
+.blockTitle {
+	text-align: center;
+	font-size: 1.5em;
+}

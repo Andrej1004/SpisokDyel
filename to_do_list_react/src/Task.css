@@ -1,0 +1,54 @@
+.Task {
+	border: 2px solid black;
+	margin: 5px;
+	padding: 5px;
+	font-size: 1.2em;
+	text-align: center;
+	background: #a5c4b2;
+	display: grid;
+	grid-template-columns: 100%;
+	justify-items: center;
+}
+.ActionPanel-1 {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	justify-items: center;
+}
+
+.ActionPanel-2 {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	justify-items: center;
+}
+
+.ActionButton {
+	text-align: left;
+	width: 100%;
+	height: 2em;
+	border-color: orange;
+	border-width: 3px;
+	font-size: 1em;
+	overflow: hidden;
+	margin: 0.2em;
+}
+
+.ActionButton:hover {
+	border-color: red;
+	opacity: 40%;
+}
+
+.ChangeTaskInput {
+	width: 95%;
+	height: 1em;
+	border-color: orange;
+	border-width: 3px;
+	margin: 1%;
+	font-size: 1em;
+	overflow: hidden;
+	font-weight: bold;
+	resize: none;
+}
+
+.ChangeTaskText {
+	height: 5em;
+}
